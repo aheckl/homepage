@@ -114,10 +114,10 @@ const Home = () => {
             </li>
             <li className="mb-2">
               <a href="ai-act.pdf" target="_blank" className="underline text-white hover:text-gray-300">
-                [2023] The EU's AI Act Proposal: Technical Documentation and Discussion of KONUX Switch
+                [2023] The EUs AI Act Proposal: Technical Documentation and Discussion of KONUX Switch
               </a>
               <br />
-              Seminararbeit zum EU Gesetzesentwurf zur Regulierung von künstlicher Intelligenz ("AI Act Proposal"). Wir
+              Seminararbeit zum EU Gesetzesentwurf zur Regulierung von künstlicher Intelligenz (AI Act Proposal). Wir
               analysierten ein spezifisches KI Tool im Eisenbahnsektor.
             </li>
             <li className="mb-2">
