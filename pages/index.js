@@ -15,9 +15,6 @@ const Home = () => {
           <a href="cv.pdf" target="_blank" className="text-white hover:text-gray-300">
             Lebenslauf
           </a>
-          <a href="#" className="text-white hover:text-gray-300">
-            Wissenschaftliche Arbeiten
-          </a>
           <a
             href="https://www.github.com/aheckl?tab=repositories"
             target="_blank"
@@ -42,7 +39,7 @@ const Home = () => {
               className="rounded-full h-32 w-32 border-1"
             />
           </div>
-          <p className="text-lg text-white">Student Master Wirtschaftsinformatik</p>
+          <p className="text-lg text-white mt-4">Student Master Wirtschaftsinformatik</p>
           <p className="text-lg text-white">Fakultät für Informatik, Technische Universität München</p>
           <p className="text-lg text-white mt-4">Werkstudent Datacenter & Cloud Solutions</p>
           <p className="text-lg text-white">ProSiebenSat.1 Tech Solutions GmbH</p>
@@ -53,7 +50,7 @@ const Home = () => {
       <div className="bg-gray-300 p-8 relative z-0">
         <div className="container p-8">
           <h2 className="text-2xl font-normal text-center text-gray-900 mb-4">About</h2>
-          <p className="text-gray-800">
+          <p className="text-justify text-gray-800">
             Ich studiere im Master Wirtschaftsinformatik an der Informatikfakultät der Technischen Universität München
             (TUM). Meinen Bachelor schloss ich ebenfalls in Wirtschaftsinformatik an der TUM ab. Zuvor absolvierte ich
             eine Ausbildung zum IHK Handelsfachwirt bei SportScheck und spezialisierte mich dort im Controlling. Meinen
@@ -63,13 +60,13 @@ const Home = () => {
             </a>
             .
           </p>
-          <p className="text-gray-800 mt-4">
+          <p className="text-justify text-gray-800 mt-4">
             Meine Interessensgebiete sind breit gestreut: Ich belegte Seminare zu den Themen Softwarequalität und KI
             Regulierung sowie Praktika zu den Themen Webentwicklung und ServiceNow. Meine Bachelorarbeit schrieb ich bei
             Prof. Helmut Krcmar über Process Mining.
           </p>
 
-          <p className="text-gray-800 mt-4">
+          <p className="text-justify text-gray-800 mt-4">
             Neben meinen Werkstudentenjobs bei SportScheck, DeutschlandCard und ProSiebenSat.1 Tech Solutions kam ich
             auch durch Praktika und Seminare an der TUM in Kontakt mit der Industrie, z.B. Celonis, dem Weltmarktführer
             für Process Mining Software, und ServiceNow, einem führenden Anbieter von cloud-basiertem Workflow
@@ -84,7 +81,7 @@ const Home = () => {
           <h2 className="text-2xl font-normal text-center text-white mb-4">
             Softwareprojekte und wissenschaftliche Arbeiten
           </h2>
-          <p>
+          <p className="text-justify">
             Sie können all meine Softwareprojekte und wissenschaftliche Arbeiten (Konferenzpaper, Bachelorarbeit und
             Seminararbeiten) auf meinem{" "}
             <a
