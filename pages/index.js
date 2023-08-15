@@ -6,7 +6,7 @@ import { faLinkedin as faLinkedinBrands, faGithub as faGithubBrands } from "@for
 const Home = () => {
   return (
     <div>
-      {/* Horizontal Grey Bar with Links */}
+      {/* Horizontal Grey Bar */}
       <div className="bg-gray-700 py-6 px-8 flex justify-between">
         <div className="container space-x-4">
           <a href="#" className="text-white hover:text-gray-300">
