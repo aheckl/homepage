@@ -74,14 +74,19 @@ const Home = () => {
             Softwareprojekte und wissenschaftliche Arbeiten
           </h2>
           <p>
-            Sie können all meine Softwareprojekte und wissenschaftliche Arbeiten (Konferenzpaper, Bachelorarbeit und
-            Seminararbeiten) auf meinem{" "}
-            <a href="https://www.github.com/aheckl?tab=repositories" className=" underline hover:text-gray-500">
-              GitHub Profil
+            All meine wissenschaftlichen Arbeiten (Konferenzpaper, Bachelorarbeit und Seminararbeiten) finden Sie in{" "}
+            <a href="https://github.com/aheckl/scientific-work" className=" underline hover:text-gray-500">
+              diesem GitHub Repository.
             </a>{" "}
-            finden. Hier ist eine Auswahl:
+            Alle weiteren Softwareprojekte und die Programme zu den jeweiligen wissenschafltichen Arbeiten finden Sie
+            auf der{" "}
+            <a href="https://github.com/aheckl/?tab=repositories" className=" underline hover:text-gray-500">
+              Übersichtsseite meiner Github Repositories.
+            </a>{" "}
+            Hier ist eine Auswahl:
           </p>
-          <h2 className="text-2xl font-light text-white mb-2 mt-2">wissenschaftliche Arbeiten</h2>
+          {/* <h2 className="text-2xl font-light text-white mb-2 mt-2">wissenschaftliche Arbeiten</h2> */}
+          <br></br>
           <ul className="list-disc pl-6 text-white">
             <li className="mb-2">
               <a href="https://ieeexplore.ieee.org/document/10125248" className=" underline hover:text-gray-500">
@@ -102,6 +107,20 @@ const Home = () => {
               analysierten ein spezifisches KI Tool im Eisenbahnsektor.
             </li>
             <li className="mb-2">
+              <a
+                href="https://github.com/aheckl/web-application-engineering-practical-course"
+                className="underline text-white hover:text-gray-300"
+              >
+                [2022] Online Shop for Renting Computer Hardware
+              </a>
+              <br />
+              Im Zuge des Universitätspraktikums{" "}
+              <em>Software Engineering for Business Applications: Web Application Engineering</em> im Sommersemester
+              2022 entwickelten wir in einem Team von 4 Studenten einen Onlineshop namens AirParts, in welchem Kunden PC
+              Hardware wie Prozessoren oder Grafikkarten mieten können. Für die Entwicklung nutzten wir den MERN Stack
+              (MongoDB, Express.js, React, Node.js) und Material UI als Styling Library.
+            </li>
+            <li className="mb-2">
               <a href="ba.pdf" className="underline text-white hover:text-gray-300">
                 [2022] Simulation von kontinuierlichen Geschäftsprozessdaten für Process Mining in der Lehre
               </a>
@@ -118,12 +137,6 @@ const Home = () => {
               Seminararbeit zum Thema Softwarequalität. Ich entwickelte ein Tool mittels Python und Excel, welches die
               Wartbarkeit von Java Methoden quantiativ bewertet.
             </li>
-          </ul>
-          <h2 className="text-2xl font-light text-white mt-4 mb-2">Softwareprojekte</h2>
-          <ul className="list-disc pl-6 text-white">
-            <li>Simulation Tool </li>
-            <li>Project Title 2</li>
-            <li>Project Title 3</li>
           </ul>
         </div>
       </div>
