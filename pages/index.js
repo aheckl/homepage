@@ -78,7 +78,7 @@ const Home = () => {
             <a href="https://github.com/aheckl/scientific-work" className=" underline hover:text-gray-500">
               diesem GitHub Repository.
             </a>{" "}
-            Alle weiteren Softwareprojekte und die Programme zu den jeweiligen wissenschafltichen Arbeiten finden Sie
+            Alle weiteren Softwareprojekte und die Programme zu den jeweiligen wissenschaftlichen Arbeiten finden Sie
             auf der{" "}
             <a href="https://github.com/aheckl/?tab=repositories" className=" underline hover:text-gray-500">
               Übersichtsseite meiner Github Repositories.
@@ -103,8 +103,8 @@ const Home = () => {
                 [2023] The EUs AI Act Proposal: Technical Documentation and Discussion of KONUX Switch
               </a>
               <br />
-              Seminararbeit zum EU Gesetzesentwurf zur Regulierung von künstlicher Intelligenz (AI Act Proposal). Wir
-              analysierten ein spezifisches KI Tool im Eisenbahnsektor.
+              Seminararbeit zum EU-Gesetzesentwurf zur Regulierung von künstlicher Intelligenz (AI Act Proposal). Wir
+              analysierten ein spezifisches KI-Tool im Eisenbahnsektor.
             </li>
             <li className="mb-2">
               <a
@@ -126,7 +126,7 @@ const Home = () => {
               </a>
               <br />
               Bachelorarbeit über Process Mining. Im Zuge dieser Arbeit habe ich ein Python Programm geschrieben,
-              welches kontinuerlich Prozessdaten erzeugt, in eine Datenbank speichert und diese regelmäßig nach Celonis
+              welches kontinuierlich Prozessdaten erzeugt, in eine Datenbank speichert und diese regelmäßig nach Celonis
               überträgt, wo die Daten ausgewertet werden können.
             </li>
             <li>
@@ -135,7 +135,7 @@ const Home = () => {
               </a>
               <br />
               Seminararbeit zum Thema Softwarequalität. Ich entwickelte ein Tool mittels Python und Excel, welches die
-              Wartbarkeit von Java Methoden quantiativ bewertet.
+              Wartbarkeit von Java Methoden quantitativ bewertet.
             </li>
           </ul>
         </div>
