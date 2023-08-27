@@ -6,10 +6,10 @@ import { faLinkedin as faLinkedinBrands, faGithub as faGithubBrands } from "@for
 const Home = () => {
   return (
     <div>
-      {/* Horizontal Grey Bar */}
-      <div className="bg-gray-700 py-6 px-8 flex justify-between">
+      {/* Navbar */}
+      <div className="bg-gray-700 py-6 px-8 flex justify-between" id="home">
         <div className="container space-x-4">
-          <a href="#" className="text-white hover:text-gray-300">
+          <a href="#home" className="text-white hover:text-gray-300">
             Home
           </a>
           <a href="cv.pdf" className="text-white hover:text-gray-300">
@@ -24,7 +24,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Blue Section with Text */}
+      {/* Overview Section */}
       <div className="bg-blue-section relative z-0">
         <div className="container p-8 text-center">
           <h1 className="text-4xl font-light text-white mb-4">Andreas Heckl</h1>
@@ -38,7 +38,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Light Grey "About" Section with Text */}
+      {/* About Section */}
       <div className="bg-gray-300 p-4 relative z-0">
         <div className="container p-4">
           <h2 className="text-2xl font-normal text-center text-gray-900 mb-4">About</h2>
@@ -46,7 +46,7 @@ const Home = () => {
             Ich studiere im Master Wirtschaftsinformatik an der Informatikfakultät der Technischen Universität München
             (TUM). Meinen Bachelor schloss ich ebenfalls in Wirtschaftsinformatik an der TUM ab. Zuvor absolvierte ich
             eine Ausbildung zum IHK Handelsfachwirt bei SportScheck und spezialisierte mich dort im Controlling. Meinen
-            Lebenslauf finden sie{" "}
+            Lebenslauf finden Sie{" "}
             <a href="cv.pdf" className=" underline hover:text-gray-500">
               hier
             </a>
@@ -67,7 +67,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Blue "Projects" Section */}
+      {/* Projects Section */}
       <div className="bg-blue-section">
         <div className="container p-8">
           <h2 className="text-2xl font-normal text-center text-white mb-4">
@@ -76,11 +76,7 @@ const Home = () => {
           <p>
             Sie können all meine Softwareprojekte und wissenschaftliche Arbeiten (Konferenzpaper, Bachelorarbeit und
             Seminararbeiten) auf meinem{" "}
-            <a
-              href="https://www.github.com/aheckl?tab=repositories"
-              target="_blank"
-              className=" underline hover:text-gray-500"
-            >
+            <a href="https://www.github.com/aheckl?tab=repositories" className=" underline hover:text-gray-500">
               GitHub Profil
             </a>{" "}
             finden. Hier ist eine Auswahl:
@@ -88,11 +84,7 @@ const Home = () => {
           <h2 className="text-2xl font-light text-white mb-2 mt-2">wissenschaftliche Arbeiten</h2>
           <ul className="list-disc pl-6 text-white">
             <li className="mb-2">
-              <a
-                href="https://ieeexplore.ieee.org/document/10125248"
-                target="_blank"
-                className=" underline hover:text-gray-500"
-              >
+              <a href="https://ieeexplore.ieee.org/document/10125248" className=" underline hover:text-gray-500">
                 [2023] Simulation Tool for Action Oriented Process Mining
               </a>
               <br />
@@ -102,7 +94,7 @@ const Home = () => {
               <br />
             </li>
             <li className="mb-2">
-              <a href="ai-act.pdf" target="_blank" className="underline text-white hover:text-gray-300">
+              <a href="ai-act.pdf" className="underline text-white hover:text-gray-300">
                 [2023] The EUs AI Act Proposal: Technical Documentation and Discussion of KONUX Switch
               </a>
               <br />
@@ -110,7 +102,7 @@ const Home = () => {
               analysierten ein spezifisches KI Tool im Eisenbahnsektor.
             </li>
             <li className="mb-2">
-              <a href="ba.pdf" target="_blank" className="underline text-white hover:text-gray-300">
+              <a href="ba.pdf" className="underline text-white hover:text-gray-300">
                 [2022] Simulation von kontinuierlichen Geschäftsprozessdaten für Process Mining in der Lehre
               </a>
               <br />
@@ -119,7 +111,7 @@ const Home = () => {
               überträgt, wo die Daten ausgewertet werden können.
             </li>
             <li>
-              <a href="swq.pdf" target="_blank" className="underline text-white hover:text-gray-300">
+              <a href="swq.pdf" className="underline text-white hover:text-gray-300">
                 [2020] Maintainability of Java Methods: A Quantitative Approach
               </a>
               <br />
@@ -136,7 +128,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Light Grey "Contact" Section */}
+      {/* Contact Section */}
       <div className="bg-gray-300 p-4" id="contact">
         <div className="container p-4">
           <h2 className="text-2xl font-normal text-center text-gray-900 mb-4">Kontakt</h2>
