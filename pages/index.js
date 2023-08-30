@@ -153,9 +153,9 @@ const Home = () => {
               </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/your-profile-link" className="text-blue-600 hover:underline">
+              <a href="https://www.linkedin.com/in/andreas-heckl-9ab02828b/" className="text-blue-600 hover:underline">
                 <FontAwesomeIcon icon={faLinkedinBrands} className="mr-2" />
-                LinkedIn
+                Linkedin
               </a>
             </li>
             <li>
@@ -176,7 +176,7 @@ const Home = () => {
 
       <div className="bg-gray-700 py-4 px-8 flex justify-between">
         <div className="container space-x-4">
-          <p> Copyright 2023 Andreas Heckl | Erstellt mit Next.js</p>
+          <p> Copyright 2023 Andreas Heckl</p>
         </div>
       </div>
     </div>
