@@ -54,8 +54,8 @@ const Home = () => {
           </p>
           <p className="text-black mt-4">
             Meine Interessensgebiete sind breit gestreut: Ich belegte Seminare zu den Themen Softwarequalität und KI
-            Regulierung sowie Praktika zu den Themen Webentwicklung und ServiceNow. Meine Bachelorarbeit schrieb ich bei
-            Prof. Helmut Krcmar über Process Mining.
+            Regulierung sowie Praktika zu den Themen Webentwicklung und ServiceNow Appentwicklung. Meine Bachelorarbeit
+            schrieb ich am Lehrstuhl von Prof. Helmut Krcmar über Process Mining.
           </p>
 
           <p className="text-black mt-4">
@@ -176,7 +176,7 @@ const Home = () => {
 
       <div className="bg-gray-700 py-4 px-8 flex justify-between">
         <div className="container space-x-4">
-          <p> Copyright 2023 Andreas Heckl</p>
+          <p> Copyright 2023 Andreas Heckl | Created with Next.js</p>
         </div>
       </div>
     </div>
