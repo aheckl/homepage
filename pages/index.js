@@ -153,7 +153,7 @@ const Home = () => {
               </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/andreas-heckl/" className="text-blue-600 hover:underline">
+              <a href="https://www.linkedin.com/in/aheckl/" className="text-blue-600 hover:underline">
                 <FontAwesomeIcon icon={faLinkedinBrands} className="mr-2" />
                 Linkedin
               </a>
