@@ -164,12 +164,6 @@ const Home = () => {
                 github.com/aheckl
               </a>
             </li>
-            <li>
-              <a href="https://ieeexplore.ieee.org/author/37089842369" className="text-blue-600 hover:underline">
-                <FontAwesomeIcon icon={faUser} className="mr-2" />
-                IEEE Profile
-              </a>
-            </li>
           </ul>
         </div>
       </div>
