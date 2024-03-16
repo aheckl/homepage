@@ -45,17 +45,18 @@ const Home = () => {
           <p className="text-black">
             Ich studiere im Master Wirtschaftsinformatik an der Informatikfakultät der Technischen Universität München
             (TUM). Meinen Bachelor schloss ich ebenfalls in Wirtschaftsinformatik an der TUM ab. Zuvor absolvierte ich
-            eine Ausbildung zum IHK Handelsfachwirt bei SportScheck und spezialisierte mich dort im Controlling. Meinen
-            Lebenslauf finden Sie{" "}
+            eine Ausbildung zum IHK Handelsfachwirt bei SportScheck und spezialisierte mich dort im Controlling. Aktuell
+            schreibe ich meine Masterarbeit über sozio-technische Faktoren bei Cloudmigrationen. Meinen Lebenslauf
+            finden Sie{" "}
             <a href="cv.pdf" className=" underline hover:text-gray-500">
               hier
             </a>
             .
           </p>
           <p className="text-black mt-4">
-            Meine Interessensgebiete sind breit gestreut: Ich belegte Seminare zu den Themen Softwarequalität und KI
-            Regulierung sowie Praktika zu den Themen Webentwicklung und ServiceNow Appentwicklung. Meine Bachelorarbeit
-            schrieb ich am Lehrstuhl von Prof. Helmut Krcmar über Process Mining.
+            Meine Interessensgebiete sind breit gestreut: Ich belegte Seminare zu den Themen Cloud, Softwarequalität und
+            KI Regulierung sowie Praktika zu den Themen Webentwicklung, ServiceNow Entwicklung und SAP BTP. Meine
+            Bachelorarbeit schrieb ich am Lehrstuhl von Prof. Helmut Krcmar über Process Mining.
           </p>
 
           <p className="text-black mt-4">
@@ -75,12 +76,12 @@ const Home = () => {
           </h2>
           <p>
             All meine wissenschaftlichen Arbeiten (Konferenzpaper, Bachelorarbeit und Seminararbeiten) finden Sie in{" "}
-            <a href="https://github.com/aheckl/scientific-work" className=" underline hover:text-gray-500">
+            <a href="https://github.com/aheckl/scientific-work" className=" underline hover:text-gray-300">
               diesem GitHub Repository.
             </a>{" "}
             Alle weiteren Softwareprojekte und die Programme zu den jeweiligen wissenschaftlichen Arbeiten finden Sie
             auf der{" "}
-            <a href="https://github.com/aheckl/?tab=repositories" className=" underline hover:text-gray-500">
+            <a href="https://github.com/aheckl/?tab=repositories" className=" underline hover:text-gray-300">
               Übersichtsseite meiner Github Repositories.
             </a>{" "}
             Hier ist eine Auswahl:
@@ -89,7 +90,16 @@ const Home = () => {
           <br></br>
           <ul className="list-disc pl-6 text-white">
             <li className="mb-2">
-              <a href="https://ieeexplore.ieee.org/document/10125248" className=" underline hover:text-gray-500">
+              <a href="seminar-cloud.pdf" className=" underline hover:text-gray-300">
+                [2024] Cloud Driven Organizational Transformation - Rethinking IT-related Roles and Structures
+              </a>
+              <br />
+              Seminararbeit über den Einfluss von Cloud Computing auf IT Rollen und Strukturen in Unternehmen. Wir
+              führten zu diesem Thema eine Literaturrecherche durch.
+              <br />
+            </li>
+            <li className="mb-2">
+              <a href="https://ieeexplore.ieee.org/document/10125248" className=" underline hover:text-gray-300">
                 [2023] Simulation Tool for Action Oriented Process Mining
               </a>
               <br />
