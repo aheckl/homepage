@@ -19,6 +19,7 @@
 .DS_Store
 *.pem
 ideen.txt
+startkonfiguration.txt
 
 # debug
 npm-debug.log*

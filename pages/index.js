@@ -9,9 +9,9 @@ const Home = () => {
       {/* Navbar */}
       <div className="bg-gray-700 py-6 px-8 flex justify-between" id="home">
         <div className="container space-x-4">
-          <a href="#home" className="text-white hover:text-gray-300">
+          {/*<a href="#home" className="text-white hover:text-gray-300">
             Home
-          </a>
+          </a> */}
           <a href="cv.pdf" className="text-white hover:text-gray-300">
             Lebenslauf
           </a>
@@ -31,10 +31,8 @@ const Home = () => {
           <div className="flex justify-center mt-1 relative z-10">
             <img src="bild.jpg" alt="Round Picture" className="rounded-full h-32 w-32 border-1" />
           </div>
-          <p className="text-lg text-white mt-4">Masterstudent Wirtschaftsinformatik</p>
-          <p className="text-lg text-white">Fakultät für Informatik, Technische Universität München</p>
-          <p className="text-lg text-white mt-4">Werkstudent Datacenter & Cloud Solutions</p>
-          <p className="text-lg text-white">ProSiebenSat.1 Tech Solutions GmbH</p>
+          {/* <p className="text-lg text-white mt-4">M. Sc. Wirtschaftsinformatik</p>
+          <p className="text-lg text-white">Fakultät für Informatik, Technische Universität München</p> */}
         </div>
       </div>
 
@@ -43,11 +41,11 @@ const Home = () => {
         <div className="container p-4">
           <h2 className="text-2xl font-normal text-center text-gray-900 mb-4">About</h2>
           <p className="text-black">
-            Ich studiere im Master Wirtschaftsinformatik an der Informatikfakultät der Technischen Universität München
-            (TUM). Meinen Bachelor schloss ich ebenfalls in Wirtschaftsinformatik an der TUM ab. Zuvor absolvierte ich
-            eine Ausbildung zum IHK Handelsfachwirt bei SportScheck und spezialisierte mich dort im Controlling. Aktuell
-            schreibe ich meine Masterarbeit über sozio-technische Faktoren bei Cloudmigrationen. Meinen Lebenslauf
-            finden Sie{" "}
+            Bis Juni 2024 studierte ich im Master Wirtschaftsinformatik (engl.: Information Systems) an der
+            Informatikfakultät der Technischen Universität München (TUM). Ich schloss mein Studium mit einer
+            Masterarbeit über sozio-technische Faktoren bei Cloudmigration bzw. Cloudtransformation ab. Meinen Bachelor
+            schloss ich ebenfalls in Wirtschaftsinformatik an der TUM ab. Zuvor absolvierte ich eine Ausbildung zum IHK
+            Handelsfachwirt bei SportScheck und spezialisierte mich dort im Controlling. Meinen Lebenslauf finden Sie{" "}
             <a href="cv.pdf" className=" underline hover:text-gray-500">
               hier
             </a>
@@ -56,7 +54,8 @@ const Home = () => {
           <p className="text-black mt-4">
             Meine Interessensgebiete sind breit gestreut: Ich belegte Seminare zu den Themen Cloud, Softwarequalität und
             KI Regulierung sowie Praktika zu den Themen Webentwicklung, ServiceNow Entwicklung und SAP BTP. Meine
-            Bachelorarbeit schrieb ich am Lehrstuhl von Prof. Helmut Krcmar über Process Mining.
+            Bachelorarbeit schrieb ich am Lehrstuhl von Prof. Helmut Krcmar über Process Mining. Meine Masterarbeit
+            schrieb ich am selben Lehrstuhl zum Thema Cloudmigration bzw. Transformation.
           </p>
 
           <p className="text-black mt-4">
@@ -75,7 +74,8 @@ const Home = () => {
             Softwareprojekte und wissenschaftliche Arbeiten
           </h2>
           <p>
-            All meine wissenschaftlichen Arbeiten (Konferenzpaper, Bachelorarbeit und Seminararbeiten) finden Sie in{" "}
+            All meine wissenschaftlichen Arbeiten (Konferenzpaper, Masterarbeit, Bachelorarbeit und Seminararbeiten)
+            finden Sie in{" "}
             <a href="https://github.com/aheckl/scientific-work" className=" underline hover:text-gray-300">
               diesem GitHub Repository.
             </a>{" "}
@@ -89,6 +89,15 @@ const Home = () => {
           {/* <h2 className="text-2xl font-light text-white mb-2 mt-2">wissenschaftliche Arbeiten</h2> */}
           <br></br>
           <ul className="list-disc pl-6 text-white">
+            <li className="mb-2">
+              <a href="ma.pdf" className=" underline hover:text-gray-300">
+                [2024] Investigating Socio-Technical Factors of Cloud Migration
+              </a>
+              <br />
+              Masterarbeit über sozio-technische Faktoren bei Cloudmigration bzw. Cloudtransformation in Unternehmen.
+              Ich führte für diese Arbeit 20 Interviews mit Praxisexperten.
+              <br />
+            </li>
             <li className="mb-2">
               <a href="seminar-cloud.pdf" className=" underline hover:text-gray-300">
                 [2024] Cloud Driven Organizational Transformation - Rethinking IT-related Roles and Structures
