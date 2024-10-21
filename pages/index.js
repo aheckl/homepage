@@ -189,7 +189,7 @@ const Home = () => {
 
       <div className="bg-gray-700 py-4 px-8 flex justify-between">
         <div className="container space-x-4">
-          <p> Copyright 2023 Andreas Heckl | Created with Next.js</p>
+          <p> Copyright 2024 Andreas Heckl | Created with Next.js</p>
         </div>
       </div>
     </div>
