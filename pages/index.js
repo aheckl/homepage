@@ -12,7 +12,7 @@ const Home = () => {
           {/*<a href="#home" className="text-white hover:text-gray-300">
             Home
           </a> */}
-          <a href="cv.pdf" className="text-white hover:text-gray-300">
+          <a href="lebenslauf.pdf" className="text-white hover:text-gray-300">
             Lebenslauf
           </a>
           <a href="https://www.github.com/aheckl?tab=repositories" className="text-white hover:text-gray-300">
@@ -46,7 +46,7 @@ const Home = () => {
             Masterarbeit über sozio-technische Faktoren bei Cloudmigration bzw. Cloudtransformation ab. Meinen Bachelor
             schloss ich ebenfalls in Wirtschaftsinformatik an der TUM ab. Zuvor absolvierte ich eine Ausbildung zum IHK
             Handelsfachwirt bei SportScheck und spezialisierte mich dort im Controlling. Meinen Lebenslauf finden Sie{" "}
-            <a href="cv.pdf" className=" underline hover:text-gray-500">
+            <a href="lebenslauf.pdf" className=" underline hover:text-gray-500">
               hier
             </a>
             .
