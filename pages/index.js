@@ -31,8 +31,8 @@ const Home = () => {
           <div className="flex justify-center mt-1 relative z-10">
             <img src="bild.jpg" alt="Round Picture" className="rounded-full h-32 w-32 border-1" />
           </div>
-          {/* <p className="text-lg text-white mt-4">M. Sc. Wirtschaftsinformatik</p>
-          <p className="text-lg text-white">Fakultät für Informatik, Technische Universität München</p> */}
+          <p className="text-lg text-white mt-4">Softwareentwickler bei MTU Aero Engines AG, München</p>
+          <p className="text-lg text-white">Master Wirtschaftsinformatik (TUM)</p>
         </div>
       </div>
 
@@ -63,6 +63,11 @@ const Home = () => {
             auch durch Praktika und Seminare an der TUM in Kontakt mit der Industrie, z.B. Celonis, dem Weltmarktführer
             für Process Mining Software, und ServiceNow, einem führenden Anbieter von cloud-basiertem Workflow
             Managment.
+          </p>
+
+          <p className="text-black mt-4">
+            Seit Januar 2025 bin ich als Vollzeit-Softwareentwickler im fertigungsnahen Umfeld bei der MTU Aero Engines
+            AG in München-Allach tätig.
           </p>
         </div>
       </div>
@@ -168,7 +173,7 @@ const Home = () => {
             <li>
               <a href="mailto:a.heckl@hotmail.de" className="text-blue-600 hover:underline">
                 <FontAwesomeIcon icon={faEnvelope} className="mr-2" />
-                Email: a.heckl@hotmail.de
+                Email
               </a>
             </li>
             <li>
@@ -180,7 +185,7 @@ const Home = () => {
             <li>
               <a href="https://github.com/aheckl" className="text-blue-600 hover:underline">
                 <FontAwesomeIcon icon={faGithubBrands} className="mr-2" />
-                github.com/aheckl
+                GitHub
               </a>
             </li>
           </ul>
@@ -188,7 +193,7 @@ const Home = () => {
       </div>
 
       <div className="bg-gray-700 py-4 px-8 flex justify-between">
-        <div className="container space-x-4">
+        <div className="container space-x-4 text-center">
           <p> Copyright 2025 Andreas Heckl | Created with Next.js</p>
         </div>
       </div>
