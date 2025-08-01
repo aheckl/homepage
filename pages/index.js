@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faLinkedin, faGithub, faUser } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin as faLinkedinBrands, faGithub as faGithubBrands } from "@fortawesome/free-brands-svg-icons";
@@ -6,6 +7,14 @@ import { faLinkedin as faLinkedinBrands, faGithub as faGithubBrands } from "@for
 const Home = () => {
   return (
     <div>
+      {/* Text in browser tab */}
+      <Head>
+        <title>aheckl.de</title>
+        <meta
+          name="description"
+          content="Portfolio von Andreas Heckl – Softwareentwickler bei MTU Aero Engines AG, München."
+        />
+      </Head>
       {/* Navbar */}
       <div className="bg-gray-700 py-6 px-8 flex justify-between" id="home">
         <div className="container space-x-4">
