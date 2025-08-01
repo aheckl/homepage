@@ -67,7 +67,7 @@ const Home = () => {
 
           <p className="text-black mt-4">
             Seit Januar 2025 bin ich als Vollzeit-Softwareentwickler im fertigungsnahen Umfeld bei der MTU Aero Engines
-            AG in München-Allach tätig.
+            AG in München-Karlsfeld tätig.
           </p>
         </div>
       </div>
